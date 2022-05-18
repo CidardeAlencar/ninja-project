@@ -1,0 +1,36 @@
+.Prod1{
+    background-image: url("../Images/fondo.jpg");
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    grid-template-columns:50% 50%;
+    grid-template-rows: 25% 75%;
+    border-radius: 10px;
+    border: 3px solid black;
+    height: 480px;
+}
+.Prod1 img{
+    width: 92px;
+    border-radius: 50%;
+    border: 3px solid black;     
+}
+.Prod11 span:first-child{
+    display: flex;
+}
+.Prod12{
+    display: flex;
+    margin-left: 10px;
+    font-size: 15px;
+    font-weight: 800;
+}
+.top{
+    display: flex;
+    align-items: center;
+}
+.Ped{
+    padding-left: 35px;
+    font-size: 42px;
+    font-weight:1000;
+    color: black;
+    text-shadow: 10px 10px 10px  white;
+}
