@@ -1,0 +1,6 @@
+.titulo-mau{
+    font-family: 'Barlow Condensed', sans-serif;
+    color: hsl(9, 60%, 39%);
+    font-size: 40px;
+    border-bottom: 3px solid hsl(120, 74%, 29%);
+}
