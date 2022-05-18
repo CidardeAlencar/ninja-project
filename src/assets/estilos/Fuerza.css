@@ -1,0 +1,20 @@
+.contenedor img{
+    height: 140px;
+    width: 140px;
+}
+
+.contenedor-uno{
+    height: 160px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.contenedor-dos{
+    height: 160px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}

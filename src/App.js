@@ -1,5 +1,7 @@
-import logo from './logo.svg';
+
 import './App.css';
+import {Fuerza} from './assets/componente/Fuerza'
+
 
 function App() {
   return (
@@ -18,7 +20,7 @@ function App() {
           Learn React
         </a>
       </header>
-    </div>
+    </div> 
   );
 }
 
