@@ -3,16 +3,17 @@
     width: 30px;
     margin-top: 20px;
 }
-#menuicon:hover{
-    opacity: 0;
-}
+
 .Menu ul{
     list-style-type: none;
     padding:0 ;
-    width: 335px;
+    width: 375px;
     background-color: black;
     color: white;
     display: flex;
+    margin: 0px;
+    align-content: space-between;
+    justify-content: space-around;
 
 }
 .Menu li{
