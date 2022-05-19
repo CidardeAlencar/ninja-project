@@ -1,10 +1,10 @@
 import React from 'react'
-import MenuIcon from '../assets/MENU ICON.png'
+//import MenuIcon from '../assets/MENU ICON.png'
 import '../styles/Menu.css'
 function Menu() {
   return (
     <div className='Menu'>
-        <img src={MenuIcon} alt='Menu Icon' id='menuicon'/>
+        {/* <img src={MenuIcon} alt='Menu Icon' id='menuicon'/> */}
         <ul className='Listas'>
             <li>
                 Inicio
@@ -13,10 +13,10 @@ function Menu() {
                 Nosotros
             </li>
             <li>
-                Categorias
+                Categorías
             </li>
             <li>
-                Ubicacion
+                Ubicación
             </li>
         </ul>
     </div>
