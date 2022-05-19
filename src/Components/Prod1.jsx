@@ -4,7 +4,11 @@ import logo from "../Images/logo.jpg"
 import React from 'react'
 
 
-function Prod1() {
+function Prod1(props) {
+  const img = props.img
+  const precio = props.precio
+  const nombre = props.nombre
+  const category = props.category
   return (
     <div className='Prod1'>
         <div className="top">
@@ -12,15 +16,14 @@ function Prod1() {
             <img src={logo} alt="" />
           </div>
           <div className="Prod12"> 
-              <span>Ninja</span>  
-              
+              <span></span>                
           </div>
           <div className="Ped">
-          <span>Mochilas</span>  
+            <span>{category}</span>  
           </div>
         </div>
 
-        <Prod2/>
+        <Prod2 img = {img} precio = {precio} nombre = {nombre}/>
     </div>
   )
 }

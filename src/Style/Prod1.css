@@ -8,9 +8,10 @@
     border-radius: 10px;
     border: 3px solid black;
     height: 480px;
+    margin-bottom: 10px;
 }
 .Prod1 img{
-    width: 92px;
+    width: 90px;
     border-radius: 50%;
     border: 3px solid black;     
 }
@@ -19,18 +20,20 @@
 }
 .Prod12{
     display: flex;
-    margin-left: 10px;
+    margin-left: 2px;
     font-size: 15px;
     font-weight: 800;
 }
 .top{
     display: flex;
     align-items: center;
+    grid-column: 1/3;
 }
 .Ped{
-    padding-left: 35px;
-    font-size: 42px;
+    padding-left: 3px;
+    font-size: 35px;
     font-weight:1000;
     color: black;
-    text-shadow: 10px 10px 10px  white;
+    text-shadow: 10px 10px 10px  white;  
+    padding-left: 30px;  
 }
