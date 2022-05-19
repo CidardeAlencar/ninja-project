@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import Linterna from '../assets/LINTERNAS Y ACCESORIOS.jpg'
 import Kit from '../assets/KIT LIMPIEZA.jpg'
-import Portada from '../assets/IMG (4).jpeg'
+import Portada from '../assets/PORTADA.jpg'
 import Cintura from '../assets/CINTURONES TACTICOS.jpg'
 import './Imagen.css'
 export class imagen extends Component {
