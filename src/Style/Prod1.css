@@ -11,9 +11,9 @@
     margin-bottom: 10px;
 }
 .Prod1 img{
-    width: 90px;
+   width: 90px;
     border-radius: 50%;
-    border: 3px solid black;     
+    border: 3px solid black;   
 }
 .Prod11 span:first-child{
     display: flex;
