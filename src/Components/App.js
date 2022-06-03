@@ -1,14 +1,14 @@
 
 import '../Style/App.css';
-import { Prod1 } from './Prod1';
+import {Navegation} from '../Navegation/Navegation'
 
-function App(props) {
-  const list = props.list
+function App() {
+
   return (
-    <div>
-      {/* <Prod1/> */}
-      {list.map((cartas)=> <Prod1 nombre={cartas.nombre} precio={cartas.precio} img={cartas.img} category={cartas.category}/>)}
+    <div className='app'>
+      <Navegation/>
     </div>
+    
   );  
 }
 
