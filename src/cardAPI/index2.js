@@ -32,7 +32,7 @@ import im31 from "../Images/mochilas/img31.jpg"
 const cardList_2 = []
 const cardList2_1 = {
     id:"1",
-    category: "Mochilas y Maletines",
+    category: "Mochilas Maletines",
     precio: "120.00",
     nombre: "Bolsa de pecho",
     img: im1
@@ -49,7 +49,7 @@ const cardList2_2 = {
 cardList_2.push(cardList2_2)
 const cardList2_3 = {
     id:"3",
-    category: "Mochilas y Maletines",
+    category: "Mochilas Maletines",
     precio: "120.00",
     nombre: "Bolso de pierna",
     img: im3
@@ -57,7 +57,7 @@ const cardList2_3 = {
 cardList_2.push(cardList2_3)
 const cardList2_4 = {
     id:"4",
-    category: "Mochilas y Maletines",
+    category: "Mochilas Maletines",
     precio: "200.00",
     nombre: "Bolsa Documentos",
     img: im4
@@ -65,7 +65,7 @@ const cardList2_4 = {
 cardList_2.push(cardList2_4)
 const cardList2_5 = {
     id:"5",
-    category: "Mochilas y Maletines",
+    category: "Mochilas Maletines",
     precio: "200.00",
     nombre: "Bolso Mochila Documentos",
     img: im5
@@ -81,7 +81,7 @@ const cardList2_6 = {
 cardList_2.push(cardList2_6)
 const cardList2_7 = {
     id:"7",
-    category: "Mochilas y Maletines",
+    category: "Mochilas Maletines",
     precio: "80.00",
     nombre: "Bols Normal",
     img: im7
@@ -90,7 +90,7 @@ cardList_2.push(cardList2_7)
 
 const cardList2_8 = {
     id:"8",
-    category: "Chalecos y Accesorios",
+    category: "Mochilas Maletines",
     precio: "250.00",
     nombre: "Bolsa Mochila",
     img: im8
@@ -98,7 +98,7 @@ const cardList2_8 = {
 cardList_2.push(cardList2_8)
 const cardList2_9 = {
     id:"9",
-    category: "Chalecos y Accesorios",
+    category: "Mochilas Maletines",
     precio: "100.00",
     nombre: "Comel Back",
     img: im9
@@ -106,7 +106,7 @@ const cardList2_9 = {
 cardList_2.push(cardList2_9)
 const cardList2_10 = {
     id:"10",
-    category: "Chalecos y Accesorios",
+    category: "Mochilas y Maletines",
     precio: "100.00",
     nombre: "Comel Back",
     img: im10
@@ -115,7 +115,7 @@ cardList_2.push(cardList2_10)
 
 const cardList2_11 = {
     id:"11",
-    category: "Chalecos y Accesorios",
+    category: "Mochilas Maletines",
     precio: "310.00",
     nombre: "Maletin Bufalo",
     img: im11
@@ -123,7 +123,7 @@ const cardList2_11 = {
 cardList_2.push(cardList2_11)
 const cardList2_12 = {
     id:"12",
-    category: "Chalecos y Accesorios",
+    category: "Mochilas Maletines",
     precio: "115.00",
     nombre: "Maletin Ayudante B",
     img: im12
@@ -131,7 +131,7 @@ const cardList2_12 = {
 cardList_2.push(cardList2_12)
 const cardList2_13 = {
     id:"13",
-    category: "Chalecos y Accesorios",
+    category: "Mochilas Maletines",
     precio: "115.00",
     nombre: "Maletin Ayudante B",
     img: im13
@@ -140,7 +140,7 @@ cardList_2.push(cardList2_13)
 
 const cardList2_14 = {
     id:"14",
-    category: "Chalecos y Accesorios",
+    category: "Mochilas Maletines",
     precio: "105.00",
     nombre: "Maletin Ayudante A",
     img: im14
@@ -148,7 +148,7 @@ const cardList2_14 = {
 cardList_2.push(cardList2_14)
 const cardList2_15 = {
     id:"15",
-    category: "Chalecos y Accesorios",
+    category: "Mochilas Maletines",
     precio: "105.00",
     nombre: "Maletin Ayudante B",
     img: im15
@@ -156,7 +156,7 @@ const cardList2_15 = {
 cardList_2.push(cardList2_15)
 const cardList2_16 = {
     id:"16",
-    category: "Chalecos y Accesorios",
+    category: "Mochilas Maletines",
     precio: "115.00",
     nombre: "Maletin Ayudante B",
     img: im16
@@ -165,7 +165,7 @@ cardList_2.push(cardList2_16)
 
 const cardList2_17 = {
     id:"17",
-    category: "Chalecos y Accesorios",
+    category: "Mochilas Maletines",
     precio: "105.00",
     nombre: "Maletin Ayudante A",
     img: im17
@@ -173,7 +173,7 @@ const cardList2_17 = {
 cardList_2.push(cardList2_17)
 const cardList2_18 = {
     id:"18",
-    category: "Chalecos y Accesorios",
+    category: "Mochilas Maletines",
     precio: "250.00",
     nombre: "Maletin Para Laptop",
     img: im18
@@ -181,7 +181,7 @@ const cardList2_18 = {
 cardList_2.push(cardList2_18)
 const cardList2_19 = {
     id:"19",
-    category: "Chalecos y Accesorios",
+    category: "Mochilas Maletines",
     precio: "330.00",
     nombre: "Mochila desmontable",
     img: im19
@@ -190,7 +190,7 @@ cardList_2.push(cardList2_19)
 
 const cardList2_20 = {
     id:"20",
-    category: "Chalecos y Accesorios",
+    category: "Mochilas Maletines",
     precio: "210.00",
     nombre: "Mochila N1",
     img: im20
@@ -198,7 +198,7 @@ const cardList2_20 = {
 cardList_2.push(cardList2_20)
 const cardList2_21 = {
     id:"21",
-    category: "Chalecos y Accesorios",
+    category: "Mochilas Maletines",
     precio: "200.00",
     nombre: "Mochila N2",
     img: im21
@@ -206,7 +206,7 @@ const cardList2_21 = {
 cardList_2.push(cardList2_21)
 const cardList2_22 = {
     id:"22",
-    category: "Chalecos y Accesorios",
+    category: "Mochilas Maletines",
     precio: "200.00",
     nombre: "Mochila N3",
     img: im22
@@ -215,15 +215,15 @@ cardList_2.push(cardList2_22)
 
 const cardList2_23 = {
     id:"22",
-    category: "Chalecos y Accesorios",
+    category: "Mochilas Maletines",
     precio: "250.00",
     nombre: "Mochila N4",
-    img: im22
+    img: im23
 }
 cardList_2.push(cardList2_23)
 const cardList2_24 = {
     id:"24",
-    category: "Chalecos y Accesorios",
+    category: "Mochilas Maletines",
     precio: "240.00",
     nombre: "Mochila N5",
     img: im24
@@ -231,7 +231,7 @@ const cardList2_24 = {
 cardList_2.push(cardList2_24)
 const cardList2_25 = {
     id:"25",
-    category: "Chalecos y Accesorios",
+    category: "Mochilas Maletines",
     precio: "200.00",
     nombre: "Mochila N6",
     img: im25
@@ -240,7 +240,7 @@ cardList_2.push(cardList2_25)
 
 const cardList2_26 = {
     id:"26",
-    category: "Chalecos y Accesorios",
+    category: "Mochilas Maletines",
     precio: "330.00",
     nombre: "Mochila Tazmania Baste Metalico",
     img: im26
@@ -248,7 +248,7 @@ const cardList2_26 = {
 cardList_2.push(cardList2_26)
 const cardList2_27 = {
     id:"27",
-    category: "Chalecos y Accesorios",
+    category: "Mochilas Maletines",
     precio: "330.00",
     nombre: "Mochila Tazmania Baste Metalico",
     img: im27
@@ -256,7 +256,7 @@ const cardList2_27 = {
 cardList_2.push(cardList2_27)
 const cardList2_28 = {
     id:"28",
-    category: "Chalecos y Accesorios",
+    category: "Mochilas  Maletines",
     precio: "330.00",
     nombre: "Mochila Tazmania Baste Metalico",
     img: im28
@@ -264,7 +264,7 @@ const cardList2_28 = {
 cardList_2.push(cardList2_28)
 const cardList2_29 = {
     id:"29",
-    category: "Chalecos y Accesorios",
+    category: "Mochilas  Maletines",
     precio: "110.00",
     nombre: "Pechera Pistola",
     img: im29
@@ -272,7 +272,7 @@ const cardList2_29 = {
 cardList_2.push(cardList2_29)
 const cardList2_30 = {
     id:"30",
-    category: "Chalecos y Accesorios",
+    category: "Mochilas  Maletines",
     precio: "80.00",
     nombre: "Porta Botellas",
     img: im30
@@ -280,7 +280,7 @@ const cardList2_30 = {
 cardList_2.push(cardList2_30)
 const cardList2_31 = {
     id:"31",
-    category: "Chalecos y Accesorios",
+    category: "Mochilas  Maletines",
     precio: "80.00",
     nombre: "Canguro",
     img: im31
