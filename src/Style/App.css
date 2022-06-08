@@ -1,4 +1,9 @@
 .app{
+    margin: 0;
     display: grid;
     grid-template-columns:30% 70%;
+    background-color: rgba(14, 14, 63, 0.767);
+}
+.body{
+    margin: 0;
 }
