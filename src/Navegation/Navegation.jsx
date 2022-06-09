@@ -25,6 +25,15 @@ function Navegation() {
                 <li>
                 <Link to = "/botas"><span className='at6'>Botas y Medias</span></Link>
                 </li>
+                <li>
+                <Link to = "/cuchillos"><span className='at6'>Cuchillos</span></Link>
+                </li>
+                <li>
+                <Link to = "/deportivo"><span className='at6'>Deportivo</span></Link>
+                </li>
+                <li>
+                <Link to = "/guantes"><span className='at6'>Guantes</span></Link>
+                </li>
             </ul>
         </nav>
 
