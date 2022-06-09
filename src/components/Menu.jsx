@@ -4,6 +4,7 @@ import '../styles/Menu.css'
 import { BrowserRouter, Routes, Route, NavLink } from 'react-router-dom'
 import {Bodyt} from './Bodyt'
 import {PaginaMaster} from '../card_precio/PaginaMaster.jsx'
+import {Navegation} from '../Navegation/Navegation.jsx'
 function Menu() {
   return (
     <BrowserRouter>

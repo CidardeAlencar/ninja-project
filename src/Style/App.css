@@ -1,0 +1,6 @@
+.app{
+    margin: 0;
+    display: grid;
+    grid-template-columns:25% 75%;
+
+}
