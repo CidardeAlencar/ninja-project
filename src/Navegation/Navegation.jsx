@@ -1,46 +1,35 @@
 import React from 'react'
-import {BrowserRouter, Routes, Route, NavLink} from 'react-router-dom'
-import {Lista1} from '../card_precio/Lista1'
-import {Lista2} from '../card_precio/Lista2'
-import {Lista3} from '../card_precio/Lista3'
-import {Lista4} from '../card_precio/Lista4'
-import {Lista5} from '../card_precio/Lista5'
-import {Lista6} from '../card_precio/Lista6'
+import {Link} from 'react-router-dom'
+
 
 function Navegation() {
   return (
-      <BrowserRouter>
-        <nav>
+      
+        <nav className='to'>
             <ul>
                 <li>
-                   <NavLink to = '/chalecos'><span className='at'>Chalecos y Accesorios</span></NavLink> 
+                    <Link to = "/chalecos"><span className='at'>Chalecos y Accesorios</span></Link> 
                 </li>
                 <li>
-                    <NavLink to = '/mochilas'><span className='at2'>Mochilas y Maletines</span></NavLink> 
+                     <Link to = "/mochilas"><span className='at2'>Mochilas y Maletines</span></Link>
                 </li>
                 <li>
-                   <NavLink to = '/billeteras'><span className='at3'>Billeteras y Portalibretas</span> </NavLink> 
+                     <Link to = "/billeteras"><span className='at3'>Billeteras y Portalibretas</span></Link>
                 </li>
                 <li>
-                    <NavLink to = '/uniformes'><span className='at4'>Uniformes y Chamarras</span> </NavLink> 
+                    <Link to = "/uniformes"><span className='at4'>Uniformes y Chamarras</span></Link>
                 </li>
                 <li>
-                   <NavLink to = '/cascos'><span className='at5'>Cascos y Forros</span> </NavLink> 
+                    <Link to = "/cascos"><span className='at5'>Cascos y Forros</span></Link>
                 </li>
                 <li>
-                   <NavLink to = '/botas'><span className='at6'>Botas y Medias</span></NavLink> 
+                <Link to = "/botas"><span className='at6'>Botas y Medias</span></Link>
                 </li>
             </ul>
         </nav>
-        <Routes>
-            <Route path='chalecos' element={<Lista1/>} />
-            <Route path='mochilas' element={<Lista2/>} />
-            <Route path='billeteras' element={<Lista3/>} />
-            <Route path='uniformes' element={<Lista4/>} />
-            <Route path='cascos' element={<Lista5/>} />
-            <Route path='botas' element={<Lista6/>} />
-        </Routes>
-      </BrowserRouter>
+
+ 
+
   )
 }
 

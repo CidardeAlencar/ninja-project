@@ -41,7 +41,7 @@ cardList_2.push(cardList2_1)
 
 const cardList2_2 = {
     id:"2",
-    category: "Mochilas y Maletines",
+    category: "Mochilas Maletines",
     precio: "55.00",
     nombre: "Bolsa molle peq.",
     img: im2
