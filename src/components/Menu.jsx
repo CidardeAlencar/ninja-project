@@ -3,7 +3,7 @@ import React from 'react'
 import '../styles/Menu.css'
 function Menu() {
   return (
-    <div className='Menu'>
+    <nav className='Menu'>
         {/* <img src={MenuIcon} alt='Menu Icon' id='menuicon'/> */}
         <ul className='Listas'>
             <li>
@@ -19,7 +19,7 @@ function Menu() {
                 Ubicación
             </li>
         </ul>
-    </div>
+    </nav>
   )
 }
 

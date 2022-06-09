@@ -1,15 +1,10 @@
 import './App.css';
-import {Header} from './components/Header.jsx';
-import Imagen from './imagen/Imagen.jsx'
-import { Fuerza } from './components/Fuerzas.jsx';
-import { Lomasvisto } from './components/Lomasvisto';
+import {Navegation} from './routes/Navegation.jsx'
 
 function App() {
   return (
-    <><Header/>
-    <Imagen/> 
-    <Fuerza/>
-    <Lomasvisto/> </>
+    <><Navegation/>
+    </>
   );
 }
 
