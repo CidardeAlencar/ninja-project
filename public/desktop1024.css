@@ -1,0 +1,11 @@
+.categoria1{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1rem; 
+    margin-right: 10px;
+    width: 100%;
+}
+.body{
+    margin: 0;
+}

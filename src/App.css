@@ -2,3 +2,9 @@
   text-align: center;
   margin: 0;
 }
+.app{
+  margin: 0;
+  display: grid;
+  grid-template-columns:25% 75%;
+
+}

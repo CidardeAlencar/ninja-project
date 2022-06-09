@@ -5,7 +5,7 @@ import ejercito from '../assets/EjercitoEB.png'
 import emblema from '../assets/Emblema_Policia.jpg'
 import fuerz from '../assets/FuerzaAereaFAB.png'
 
-function Fuerza() {
+function Fuerzas() {
   return (
     <div className='contenedor'>
         <div className='contenedor-uno'>
@@ -20,4 +20,4 @@ function Fuerza() {
   )
 }
 
-export {Fuerza}
+export {Fuerzas}
