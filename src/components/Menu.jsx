@@ -3,6 +3,8 @@ import React from 'react'
 import '../styles/Menu.css'
 import { BrowserRouter, Routes, Route, NavLink } from 'react-router-dom'
 import {Bodyt} from './Bodyt'
+import {Nosotros} from './Nosotros'
+import {Ubicacion} from './Ubicacion'
 import {PaginaMaster} from '../card_precio/PaginaMaster.jsx'
 import {Navegation} from '../Navegation/Navegation.jsx'
 
@@ -24,21 +26,26 @@ function Menu() {
                 Inicio
             </li>
             </NavLink>
+            <NavLink to='Nosotros'>
             <li>
                 Nosotros
             </li>
+            </NavLink>
             <NavLink to='Categorias' >
                 <li>
                     Categorías
                 </li>
             </NavLink>
-            <li>
-                Ubicación
-            </li>
+            <NavLink to='Ubicacion' >
+                <li>
+                    Ubicacion
+                </li>
+            </NavLink>
         </ul>
     </div>
     <Routes>
         <Route path='Inicio' element={<Bodyt/>}/>
+        <Route path='Nosotros' element={<Nosotros/>}/>
         <Route path='Categorias' element={<Navegation/>}/>
         <Route path='chalecos' element={<Lista1/>} />
         <Route path='mochilas' element={<Lista2/>} />
@@ -46,6 +53,7 @@ function Menu() {
         <Route path='uniformes' element={<Lista4/>} />
         <Route path='cascos' element={<Lista5/>} />
         <Route path='botas' element={<Lista6/>} />
+        <Route path='Ubicacion' element={<Ubicacion/>}/>
     </Routes>
     </BrowserRouter>
   )

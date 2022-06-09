@@ -1,0 +1,31 @@
+.contenedor-nosotros{
+    margin-top: 0px;
+    width: 100px;
+    height: auto;
+    display: flex;
+}
+
+.contenedor-nosotros img{
+    margin-top: 23px;
+    margin-left: 0;
+    width: 375px;
+    height: auto;
+    position: relative;
+}
+
+.parrafo{
+    color: black;
+    overflow: visible;
+    position: absolute;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    font-size: small;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.parrafo span:nth-child(1){
+    font-weight: 700;
+    margin-left: 100px;
+}
