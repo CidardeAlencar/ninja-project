@@ -6,7 +6,50 @@ body {
   font-family: 'Roboto', sans-serif;
   font-family: 'Rochester', cursive;
   font-family: 'Rubik', sans-serif;
+  background: #0a2d2e;
 }
-.body{
-  margin: 0px;
+nav{
+  color: white;
+}
+.at{
+  color:  white;
+  font-size: 32px;
+  font-weight: 800;
+}
+.at2{
+  color:  white;
+  font-size: 32px;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+.at3{
+  color:  white;
+  font-size: 32px;
+  font-weight: 800;
+}
+.at4{
+  color:  white;
+  font-size: 32px;
+  font-weight: 800;
+}
+.at5{
+  color:  white;
+  font-size: 32px;
+  font-weight: 800;
+}
+.at6{
+  color:  white;
+  font-size: 32px;
+  font-weight: 800;
+}
+.at6{
+  color:  white;
+  font-size: 32px;
+  font-weight: 800;
+}
+
+ul{
+  margin-top: 300px;
+  font-size: 32px;
+  font-weight: 800;
 }

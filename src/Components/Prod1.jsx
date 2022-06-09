@@ -27,5 +27,4 @@ function Prod1(props) {
     </div>
   )
 }
-
 export {Prod1} 

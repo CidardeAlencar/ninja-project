@@ -1,5 +1,5 @@
 import React from 'react'
-import {BrowserRouter, Routes, Route, NavLink, Navigate} from 'react-router-dom'
+import {BrowserRouter, Routes, Route, NavLink} from 'react-router-dom'
 import {Lista1} from '../Components/Lista1'
 import {Lista2} from '../Components/Lista2'
 import {Lista3} from '../Components/Lista3'
@@ -13,22 +13,22 @@ function Navegation() {
         <nav>
             <ul>
                 <li>
-                   <NavLink to = '/chalecos'>Chalecos y Accesorios</NavLink> 
+                   <NavLink to = '/chalecos'><span className='at'>Chalecos y Accesorios</span></NavLink> 
                 </li>
                 <li>
-                    <NavLink to = '/mochilas'>Mochilas y Maletines</NavLink> 
+                    <NavLink to = '/mochilas'><span className='at2'>Mochilas y Maletines</span></NavLink> 
                 </li>
                 <li>
-                   <NavLink to = '/billeteras'>Billeteras y Portalibretas</NavLink> 
+                   <NavLink to = '/billeteras'><span className='at3'>Billeteras y Portalibretas</span> </NavLink> 
                 </li>
                 <li>
-                    <NavLink to = '/uniformes'>Uniformes y Chamarras</NavLink> 
+                    <NavLink to = '/uniformes'><span className='at4'>Uniformes y Chamarras</span> </NavLink> 
                 </li>
                 <li>
-                   <NavLink to = '/cascos'>Cascos y Forros</NavLink> 
+                   <NavLink to = '/cascos'><span className='at5'>Cascos y Forros</span> </NavLink> 
                 </li>
                 <li>
-                   <NavLink to = '/botas'>Botas y Medias</NavLink> 
+                   <NavLink to = '/botas'><span className='at6'>Botas y Medias</span></NavLink> 
                 </li>
             </ul>
         </nav>
