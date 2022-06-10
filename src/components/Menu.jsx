@@ -5,7 +5,7 @@ import { BrowserRouter, Routes, Route, NavLink } from 'react-router-dom'
 import {Bodyt} from './Bodyt'
 import {Nosotros} from './Nosotros'
 import {Ubicacion} from './Ubicacion'
-import {PaginaMaster} from '../card_precio/PaginaMaster.jsx'
+
 import {Navegation} from '../Navegation/Navegation.jsx'
 
 import {Lista1} from '../card_precio/Lista1'
@@ -24,29 +24,30 @@ function Menu() {
         <div className='Menu'>
         {/* <img src={MenuIcon} alt='Menu Icon' id='menuicon'/> */}
         <ul className='Listas'>
-            <NavLink to='Inicio'>
+            <NavLink to='Inicio' className={"no"}>
             <li>
-                Inicio
+                INICIO
             </li>
             </NavLink>
-            <NavLink to='Nosotros'>
+            <NavLink to='Nosotros' className={"no"}>
             <li>
-                Nosotros
+                NOSOTROS
             </li>
             </NavLink>
-            <NavLink to='Categorias' >
+            <NavLink to='Categorias' className={"no"}>
                 <li>
-                    Categorías
+                    CATEGORIAS
                 </li>
             </NavLink>
-            <NavLink to='Ubicacion' >
+            <NavLink to='Ubicacion' className={"no"}>
                 <li>
-                    Ubicacion
+                    UBICACION
                 </li>
             </NavLink>
         </ul>
     </div>
     <Routes>
+        <Route path='/' element={<Bodyt/>}/>
         <Route path='Inicio' element={<Bodyt/>}/>
         <Route path='Nosotros' element={<Nosotros/>}/>
         <Route path='Categorias' element={<Navegation/>}/>

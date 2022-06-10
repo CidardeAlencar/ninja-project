@@ -1,6 +1,6 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
-
+import './Navegation.css'
 
 function Navegation() {
   return (
@@ -8,31 +8,31 @@ function Navegation() {
         <nav className='to'>
             <ul>
                 <li>
-                    <Link to = "/chalecos"><span className='at'>Chalecos y Accesorios</span></Link> 
+                    <Link to = "/chalecos" className='at'><span >Chalecos y Accesorios</span></Link> 
                 </li>
                 <li>
-                     <Link to = "/mochilas"><span className='at2'>Mochilas y Maletines</span></Link>
+                     <Link to = "/mochilas" className='at'><span >Mochilas y Maletines</span></Link>
                 </li>
                 <li>
-                     <Link to = "/billeteras"><span className='at3'>Billeteras y Portalibretas</span></Link>
+                     <Link to = "/billeteras" className='at'><span >Billeteras y Portalibretas</span></Link>
                 </li>
                 <li>
-                    <Link to = "/uniformes"><span className='at4'>Uniformes y Chamarras</span></Link>
+                    <Link to = "/uniformes" className='at'><span >Uniformes y Chamarras</span></Link>
                 </li>
                 <li>
-                    <Link to = "/cascos"><span className='at5'>Cascos y Forros</span></Link>
+                    <Link to = "/cascos" className='at'><span >Cascos y Forros</span></Link>
                 </li>
                 <li>
-                <Link to = "/botas"><span className='at6'>Botas y Medias</span></Link>
+                <Link to = "/botas" className='at'><span >Botas y Medias</span></Link>
                 </li>
                 <li>
-                <Link to = "/cuchillos"><span className='at6'>Cuchillos</span></Link>
+                <Link to = "/cuchillos" className='at'><span >Cuchillos</span></Link>
                 </li>
                 <li>
-                <Link to = "/deportivo"><span className='at6'>Deportivo</span></Link>
+                <Link to = "/deportivo" className='at'><span >Deportivo</span></Link>
                 </li>
                 <li>
-                <Link to = "/guantes"><span className='at6'>Guantes</span></Link>
+                <Link to = "/guantes" className='at'><span >Guantes</span></Link>
                 </li>
             </ul>
         </nav>
