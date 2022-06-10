@@ -1,14 +1,14 @@
 .cont-ubicacion{
+    margin: auto;
     margin-top: 50px;
-    width: auto;
-    height: 375px;
-    display: flex;
+    margin-left: 20%;
+    text-align: center;
 }
 
 .cont-ubicacion img{
-    margin-top: 0px;
-    margin-left: 0;
-    width: 375px;
-    height: auto;
+    margin: auto;
+    margin-top: 5%;
+    height: 100%;
+    width: 70%;
     position: relative;
 }

@@ -8,7 +8,7 @@
     list-style-type: none;
     padding:0 ;
     background-color: black;
-    color: white;
+    /*color: white;*/
     display: flex;
     margin: 0px;
     align-content: space-between;
@@ -16,10 +16,26 @@
 
 }
 .Menu li{
-    border: solid 1px gray;
+   /* border: solid 1px gray;*/
     padding: 10px;
 }
 .Menu{
     height: 20px;
     width: 100%;
+    text-decoration: none;
+}
+li {
+    color: white;
+    text-decoration: none;
+    font-weight: 800;
+    
+}
+nav{
+    text-decoration: none;
+}
+.Listas{
+    text-decoration: none;
+}
+.no{
+    text-decoration: none;
 }

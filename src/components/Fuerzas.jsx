@@ -2,7 +2,7 @@ import React from 'react'
 import '../styles/Fuerzas.css'
 import armada from '../assets/ARMADA.png'
 import ejercito from '../assets/EjercitoEB.png'
-import emblema from '../assets/Emblema_Policia.jpg'
+import emblema from '../assets/logo poli.png'
 import fuerz from '../assets/FuerzaAereaFAB.png'
 
 function Fuerzas() {
